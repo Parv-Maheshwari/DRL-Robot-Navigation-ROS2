@@ -144,5 +144,8 @@ tests/reports
 
 # Ruff
 .ruff_cache
-/log/
+**/log/**
 /install/
+
+*.pth
+**tfevents**
